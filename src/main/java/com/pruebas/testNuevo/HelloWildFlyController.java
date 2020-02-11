@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloWildFlyController {
 
 
-    @RequestMapping(path = "/hellotomcat", method = RequestMethod.GET)
+    @RequestMapping(path = "/hellotomcat", method = RequestMethod.GET)    
     public String sayHello(){
         return ("Hello, SpringBoot on Tomcat");
     }
